@@ -7,5 +7,5 @@ require __DIR__ . '/src/MessagingService/Service.php';
 require __DIR__ . '/src/Objects/Message.php';
 
 
-$service = new \MessagingService\Service('TgKVO6JwzLz8caXklGVNSUxcC');
+$service = new \MessagingService\Service('YOU_ACCESS_KEY_HERE');
 $service->send($_SERVER);
